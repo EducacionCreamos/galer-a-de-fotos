@@ -216,10 +216,10 @@ function showPhotos(plan) {
         'domingo': 'https://example.com/galeria-plan-domingo'
     };
     
-    showNotification(`Galería del Plan ${plan.charAt(0).toUpperCase() + plan.slice(1)} próximamente disponible`, 'info');
+    //showNotification(`Galería del Plan ${plan.charAt(0).toUpperCase() + plan.slice(1)} próximamente disponible`, 'info');
     
     // En el futuro aqui se abrirá una galería real
-    // window.open(photoUrls[plan], '_blank');
+    window.open(photoUrls[plan], '_blank');
 }
 
 function showComingSoon(service) {
@@ -632,4 +632,5 @@ window.addEventListener('beforeunload', function() {
 });
 
 console.log('Script CREAMOS v2.0 cargado exitosamente - Todas las funcionalidades activas');
+
 
