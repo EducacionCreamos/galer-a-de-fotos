@@ -210,15 +210,16 @@ function showProgram() {
 }
 
 function showPhotos(plan) {
-    // URLs temporales para las galerÃ­as de fotos
+    // URLs temporales para las galerías de fotos
     const photoUrls = {
         'diario': 'https://creamos-educacion.infinityfreeapp.com/?i=1',
         'domingo': 'https://example.com/galeria-plan-domingo'
     };
-    
-    //showNotification(`Galería del Plan ${plan.charAt(0).toUpperCase() + plan.slice(1)} próximamente disponible`, 'info');
-    
-    // En el futuro aqui se abrirá una galería real
+
+    // Comentar la notificación ya que ahora sí funciona
+    // showNotification(`Galería del Plan ${plan.charAt(0).toUpperCase() + plan.slice(1)} próximamente disponible`, 'info');
+
+    // Activar la línea que abre la galería
     window.open(photoUrls[plan], '_blank');
 }
 
@@ -632,5 +633,6 @@ window.addEventListener('beforeunload', function() {
 });
 
 console.log('Script CREAMOS v2.0 cargado exitosamente - Todas las funcionalidades activas');
+
 
 
