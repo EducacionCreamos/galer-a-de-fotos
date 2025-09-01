@@ -212,7 +212,7 @@ function showProgram() {
 function showPhotos(plan) {
     // URLs temporales para las galerÃ­as de fotos
     const photoUrls = {
-        'diario': 'https://example.com/galeria-plan-diario',
+        'diario': 'https://creamos-educacion.infinityfreeapp.com/?i=1',
         'domingo': 'https://example.com/galeria-plan-domingo'
     };
     
@@ -632,3 +632,4 @@ window.addEventListener('beforeunload', function() {
 });
 
 console.log('Script CREAMOS v2.0 cargado exitosamente - Todas las funcionalidades activas');
+
