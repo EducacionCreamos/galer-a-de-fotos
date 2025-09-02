@@ -685,7 +685,7 @@ body {
 }
 
 .program-schedule {
-    background: #f8f9fa;
+    background: #8db2d6;
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 1.5rem;
@@ -1350,4 +1350,5 @@ body {
 
 .mt-3 { 
     margin-top: 1.5rem; 
+
 }
